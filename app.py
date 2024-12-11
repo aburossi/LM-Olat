@@ -39,10 +39,8 @@ MESSAGE_TYPES = [
     "single_choice",
     "multiple_choice1",
     "multiple_choice2",
-    "multiple_choice3",
     "kprim",
     "truefalse",
-    "draganddrop",
     "inline_fib"
 ]
 
