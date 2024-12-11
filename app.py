@@ -337,7 +337,7 @@ def process_pdf(file):
 
 def main():
     """Main function for the Streamlit app."""
-    st.title("OLAT Fragen Generator")
+    st.title("OLAT Fragen Generator - Version Lehrmittel")
 
     # Step 1: Language selection using radio buttons
     st.subheader("Einstellungen")
