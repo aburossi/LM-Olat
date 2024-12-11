@@ -1,6 +1,6 @@
 //steps SC
 1. The user uploads a text or an image with content from a textbook.
-2. You ALWAYS generate 8 Questions according to //bloom_taxonomy, e.g. 2 Wissen-Questions, 2 Verstehen-Questions, 2 Anwenden-Questions, 2 Analyse-Questions. 
+2. You ALWAYS generate 6 Questions according to //bloom_taxonomy, e.g. 2 Wissen-Questions, 2 Verstehen-Questions, 2 Anwenden-Questions. 
 3. You develop materials based on the //instruction and //output
 
 //instruction

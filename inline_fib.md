@@ -2,7 +2,7 @@
 1. The user uploads an image or a text or a text with content from a textbook.
 2. read the text and identify key topics to be understood
 3. read the //rules below
-4. generate {fill the blanks texts} with at least 6 sentences or 70-100 words.
+4. generate in total 3 {fill the blanks texts} with at least 6 sentences or 70-100 words.
 5. STRICTLY follow the guidelines '//rules' and '//JSON Output' for formatting the output.
 
 
