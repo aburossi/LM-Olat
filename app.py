@@ -232,7 +232,7 @@ def get_chatgpt_response(prompt, image=None, selected_language="English"):
             model="gpt-4.1",
             messages=messages,
             max_tokens=16000,
-            temperature=0.6
+            temperature=0.4
         )
         
         # Return the content of the first choice
