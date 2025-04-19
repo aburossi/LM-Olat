@@ -75,10 +75,10 @@ No additional explanation. ONLY the questions as plain text. never use ':' as a 
 //rules
 - ALWAYS generate 2 correct_answers
 - ALWAYS generate 2 incorrect_answers slightly longer that the correct_answers
-- ALWAYS maximal 3 Points according to the following rules
+- ALWAYS maximal 2 Points according to the following rules
       
 //templates_closed.txt
-Typ\tMC\nLevel\t{bloom_level}\nFeedback correct answer\t{feedback_correct_answer}\nFeedback wrong answer\t{feedback_wrong_answer}\nTitle\tgeneral_title_of_the_question\nQuestion\tgeneral_question_text_placeholder\nMax answers\t4\nMin answers\t0\nPoints\t3\n1.5\tcorrect_answer_placeholder_1\n1.5\tcorrect_answer_placeholder_2\n-0.5\tincorrect_answer_placeholder_1\n-0.5\tincorrect_answer_placeholder_2
+Typ\tMC\nLevel\t{bloom_level}\nFeedback correct answer\t{feedback_correct_answer}\nFeedback wrong answer\t{feedback_wrong_answer}\nTitle\tgeneral_title_of_the_question\nQuestion\tgeneral_question_text_placeholder\nMax answers\t4\nMin answers\t0\nPoints\t2\n1\tcorrect_answer_placeholder_1\n1\tcorrect_answer_placeholder_2\n-0.5\tincorrect_answer_placeholder_1\n-0.5\tincorrect_answer_placeholder_2
 
 //OUTPUT_Example_in_german
 Typ	MC
@@ -89,8 +89,8 @@ Title	Fussball: WM-Titeln
 Question	Welche Ländern haben mindestens eine WM gewonnen?
 Max answers	4
 Min answers	0
-Points	3
-1.5	Deutschland
-1.5	Brasilien
+Points	2
+1	Deutschland
+1	Brasilien
 -0.5	Südafrika
 -0.5	Schweiz
