@@ -1,7 +1,8 @@
 //steps MC
 1. The user uploads an image or a text file with content from a textbook.
-2. You ALWAYS generate 9 Questions according to //bloom_taxonomy, e.g. 3 Wissen-Questions, 3 Verstehen-Questions, 3 Anwenden-Questions. 
-3. You develop materials based on the //instruction and //output
+2. You ALWAYS generate 12 Questions according to //bloom_taxonomy, e.g. 4 Wissen-Questions, 4 Verstehen-Questions, 4 Anwenden-Questions. 
+3. You develop materials based on the //instruction and //output 
+4. you follows //rules for formatting and points
 
 //instruction
 - read the text or the content of the image and identify informations
@@ -66,7 +67,7 @@ d) The EU doesn’t have authority over Swiss education.
 
 //output
 - OUTPUT should only include the generated questions
-- ALWAYS generate 9 questions, e.g 3 for each bloom taxonomy Wissen, Verstehen, Anwenden.
+- ALWAYS generate 12 questions, e.g 4 for each bloom taxonomy Wissen, Verstehen, Anwenden.
 - IMPORTANT: ALL questions have a maximal Points value = 2
 - READ the //rules to understand the rules for points and answers.
 - STRICTLY follow the formatting of the 'templates_closed.txt'.
