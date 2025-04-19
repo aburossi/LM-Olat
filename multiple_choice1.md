@@ -74,7 +74,7 @@ d) The EU doesn’t have authority over Swiss education.
 
 //rules
 - ALWAYS generate 1 correct_answers
-- ALWAYS generate 3 incorrect_answers shortly longer that the correct_answer
+- ALWAYS generate 3 incorrect_answers slightly longer that the correct_answer
 - ALWAYS maximal 3 Points according to the following rules
       
 //templates_closed.txt
