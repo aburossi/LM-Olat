@@ -83,14 +83,42 @@ Typ\tMC\nLevel\t{bloom_level}\nFeedback correct answer\t{feedback_correct_answer
 //OUTPUT_Example_in_german
 Typ	MC
 Level	Wissen
-Feedback correct answer      Richtig! Die Schweiz hat noch nie eine Fussball-Weltmeisterschaft gewonnen.  
-Feedback wrong answer      Falsch. Die Schweiz hat noch nie eine Fussball-Weltmeisterschaft gewonnen. 
-Title	Fussball: Austragungsort
-Question	Welches Land hat noch nie eine WM gewonnen?
+Feedback correct answer      Richtig! Der Lehrvertrag muss schriftlich abgeschlossen werden, um gültig zu sein.
+Feedback wrong answer      Falsch. Der Lehrvertrag muss immer schriftlich abgeschlossen werden.
+Title	Lehrvertrag: Formvorschrift
+Question	In welcher Form muss ein Lehrvertrag in der Schweiz abgeschlossen werden?
 Max answers	4
 Min answers	0
 Points	2
--0.5	Deutschland
--0.5	Brasilien
--0.5	Südafrika
-2	Schweiz
+-0.5	Mündlich, sofern beide Parteien einverstanden sind
+-0.5	Per Handschlag und Zeugen
+-0.5	Elektronisch ohne Unterschrift
+2	Schriftlich
+
+Typ	MC
+Level	Verstehen
+Feedback correct answer      Richtig! Der Lehrvertrag kann während der Probezeit mit einer Frist von sieben Tagen gekündigt werden.
+Feedback wrong answer      Falsch. Während der Probezeit ist eine Kündigung mit einer Frist von sieben Tagen möglich.
+Title	Lehrvertrag: Kündigung in der Probezeit
+Question	Wie kann ein Lehrvertrag während der Probezeit beendet werden?
+Max answers	4
+Min answers	0
+Points	2
+-0.5	Jederzeit ohne Frist
+-0.5	Nur mit Zustimmung der Eltern
+-0.5	Nur am Monatsende
+2	Mit einer Frist von sieben Tagen
+
+Typ	MC
+Level	Anwenden
+Feedback correct answer      Richtig! In diesem Fall muss der Lernende die Berufsschule besuchen und die ihm übertragenen Arbeiten sorgfältig ausführen.
+Feedback wrong answer      Falsch. Der Lernende muss die Berufsschule besuchen und die Arbeiten sorgfältig ausführen.
+Title	Lehrvertrag: Pflichten anwenden
+Question	Ein Lernender möchte wissen, was er während der Ausbildung tun muss. Was ist richtig?
+Max answers	4
+Min answers	0
+Points	2
+-0.5	Er kann die Berufsschule nach Belieben schwänzen
+-0.5	Er muss keine Arbeiten ausführen, die ihm nicht gefallen
+-0.5	Er darf die Ausbildung jederzeit ohne Grund abbrechen
+2	Er muss die Berufsschule besuchen und die ihm übertragenen Arbeiten sorgfältig ausführen

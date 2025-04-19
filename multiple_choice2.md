@@ -83,14 +83,42 @@ Typ\tMC\nLevel\t{bloom_level}\nFeedback correct answer\t{feedback_correct_answer
 //OUTPUT_Example_in_german
 Typ	MC
 Level	Wissen
-Feedback correct answer      Richtig! Deutschland und Brasilien haben schon eine Fussball-Weltmeisterschaft gewonnen.  
-Feedback wrong answer      Falsch. Deutschland und Brasilien haben schon eine Fussball-Weltmeisterschaft gewonnen. 
-Title	Fussball: WM-Titeln
-Question	Welche Ländern haben mindestens eine WM gewonnen?
+Feedback correct answer      Richtig! Die Krankenversicherer sind verpflichtet, jede Person unabhängig von Vorerkrankungen aufzunehmen.  
+Feedback wrong answer      Falsch. Die Krankenversicherer sind verpflichtet, jede Person unabhängig von Vorerkrankungen aufzunehmen. 
+Title	Krankenversicherung: Aufnahmeverpflichtung
+Question	Welche Verpflichtung haben Krankenversicherer bei der Grundversicherung?
 Max answers	4
 Min answers	0
 Points	2
-1	Deutschland
-1	Brasilien
--0.5	Südafrika
--0.5	Schweiz
+1	Jede Person aufnehmen
+1	Keine Gesundheitsprüfung verlangen
+-0.5	Nur gesunde Personen aufnehmen, wenn sie jünger als 35 Jahre sind
+-0.5	Personen mit chronischen Krankheiten ablehnen, wenn sie zu viel kosten
+
+Typ	MC
+Level	Verstehen
+Feedback correct answer      Richtig! Die Grundversicherung deckt notwendige medizinische Leistungen bei Krankheit, Unfall und Mutterschaft.  
+Feedback wrong answer      Falsch. Die Grundversicherung deckt notwendige medizinische Leistungen bei Krankheit, Unfall und Mutterschaft. 
+Title	Krankenversicherung: Leistungen
+Question	Welche Leistungen sind von der Grundversicherung in der Schweiz abgedeckt?
+Max answers	4
+Min answers	0
+Points	2
+1	Medizinische Behandlungen bei Krankheit
+1	Kosten für Mutterschaft
+-0.5	Komplette Zahnbehandlungen und kosmetische Operationen
+-0.5	Alle Auslandsbehandlungen ohne Einschränkungen
+
+Typ	MC
+Level	Anwenden
+Feedback correct answer      Richtig! Wer umzieht, muss den Versicherer informieren und die neue Adresse melden.  
+Feedback wrong answer      Falsch. Wer umzieht, muss den Versicherer informieren und die neue Adresse melden. 
+Title	Krankenversicherung: Meldepflicht
+Question	Welche Handlung ist bei einem Wohnortwechsel in Bezug auf die Krankenversicherung erforderlich?
+Max answers	4
+Min answers	0
+Points	2
+1	Den Versicherer über die neue Adresse informieren
+1	Die neue Adresse rechtzeitig melden
+-0.5	Die Krankenversicherung automatisch vom alten Wohnort übernehmen lassen, ohne Information
+-0.5	Die Versicherung einfach kündigen, ohne weitere Schritte einzuleiten

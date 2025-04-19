@@ -67,26 +67,26 @@ True would indicate that a learner misunderstands the relationship between canto
 //templates_closed.txt
 Typ\tTruefalse\nLevel\t{bloom_level}\nTitle\tgeneral_title_of_the_question\nQuestion\tgeneral_question_text_placeholder\nPoints\t2\n\tUnanswered\tRight\tWrong\ncorrect_answer_placeholder_1\t0\t1\t-0.25\ncorrect_answer_placeholder_1\t0\t1\t-0.25\nincorrect_answer_placeholder_1\t0\t-0.25\t1\nincorrect_answer_placeholder_1\t0\t-0.25\t1
 
-OUTPUT Example in german:
+//OUTPUT Example in german:
 Typ	Truefalse
 Level	Wissen
-Title	Hauptstädte Europa		
-Question	Sind die folgenden Aussagen richtig oder falsch?		
-Points	2		
+Title	Lehrvertrag Schweiz – Grundwissen
+Question	Sind die folgenden Aussagen richtig oder falsch?
+Points	3
 	Unanswered	Right	Wrong
-Paris ist in Frankreich	0	0.5	-0.25
-Bern ist in Schweiz	0	0.5	-0.25
-Stockholm ist in Danemark	0	-0.25	0.5
-Stockholm ist in Sweeden	0	0.5	-0.25
+Ein Lehrvertrag in der Schweiz muss schriftlich abgeschlossen werden	0	1	-0.5
+Der Lehrvertrag ist in der Schweiz nur für volljährige Lernende verpflichtend	0	-0.5	1
+Die Probezeit ist im Lehrvertrag gesetzlich geregelt	0	1	-0.5
+Lernende sind verpflichtet, die ihnen übertragenen Arbeiten sorgfältig auszuführen	0	1	-0.5
 
-Typ    Truefalse
-Level	Wissen
-Title    Kontinente
-Question    Sind die folgenden Aussagen richtig oder falsch?
-Points    2
-    Unanswered    Right    Wrong
-Hongkong ist in Europa    0    -0.25    0.5
-Buenos Aires ist in Afrika    0    -0.25    0.5
-Berlin ist in Asien    0    -0.25    0.5
-Buenos Aires ist in Süd-Amerika	0	0.5	-0.25
+Typ	Truefalse
+Level	Verstehen
+Title	Rechte und Pflichten im Lehrvertrag
+Question	Beurteilen Sie die folgenden Aussagen zu den Rechten und Pflichten der Vertragsparteien.
+Points	3
+	Unanswered	Right	Wrong
+Der Lehrbetrieb muss dem Lernenden eine abgeschlossene Berufsausbildung ermöglichen	0	1	-0.5
+Lernende dürfen während der Arbeitszeit ohne Absprache mit dem Betrieb die Schule schwänzen	0	-0.5	1
+Wenn ein Lernender krank ist, muss er dem Betrieb sofort Bescheid geben und ein Arztzeugnis vorlegen, falls verlangt	0	1	-0.5
+Der Betrieb kann den Lehrvertrag während der Probezeit ohne Angabe von Gründen kündigen	0	1	-0.5
 
