@@ -66,7 +66,8 @@ d) The EU doesn’t have authority over Swiss education.
 
 //output
 - OUTPUT should only include the generated questions
-- ALWAYS generate 9 questions, e.g 3 for each bloom taxonomy Wissen, Verstehen, Anwenden. 
+- ALWAYS generate 9 questions, e.g 3 for each bloom taxonomy Wissen, Verstehen, Anwenden.
+- IMPORTANT: ALL questions have a maximal Points value = 2
 - READ the //rules to understand the rules for points and answers.
 - STRICTLY follow the formatting of the 'templates_closed.txt'.
 - IMPORTANT: the output is just the questions
@@ -75,7 +76,7 @@ d) The EU doesn’t have authority over Swiss education.
 //rules
 - ALWAYS generate 1 correct_answers
 - ALWAYS generate 3 incorrect_answers slightly longer that the correct_answer
-- ALWAYS maximal two Points according to the following rules
+- ALWAYS maximal two Points
       
 //templates_closed.txt
 Typ\tMC\nLevel\t{bloom_level}\nFeedback correct answer\t{feedback_correct_answer}\nFeedback wrong answer\t{feedback_wrong_answer}\nTitle\tgeneral_title_of_the_question\nQuestion\tgeneral_question_text_placeholder\nMax answers\t4\nMin answers\t0\nPoints\t2\n2\tcorrect_answer_placeholder_1\n-0.5\tincorrect_answer_placeholder_1\n-0.5\tincorrect_answer_placeholder_2\n-0.5\tincorrect_answer_placeholder_3
