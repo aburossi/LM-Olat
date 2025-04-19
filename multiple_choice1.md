@@ -75,10 +75,10 @@ d) The EU doesn’t have authority over Swiss education.
 //rules
 - ALWAYS generate 1 correct_answers
 - ALWAYS generate 3 incorrect_answers slightly longer that the correct_answer
-- ALWAYS maximal 3 Points according to the following rules
+- ALWAYS maximal 2 Points according to the following rules
       
 //templates_closed.txt
-Typ\tMC\nLevel\t{bloom_level}\nFeedback correct answer\t{feedback_correct_answer}\nFeedback wrong answer\t{feedback_wrong_answer}\nTitle\tgeneral_title_of_the_question\nQuestion\tgeneral_question_text_placeholder\nMax answers\t4\nMin answers\t0\nPoints\t3\n3\tcorrect_answer_placeholder_1\n-0.5\tincorrect_answer_placeholder_1\n-0.5\tincorrect_answer_placeholder_2\n-0.5\tincorrect_answer_placeholder_3
+Typ\tMC\nLevel\t{bloom_level}\nFeedback correct answer\t{feedback_correct_answer}\nFeedback wrong answer\t{feedback_wrong_answer}\nTitle\tgeneral_title_of_the_question\nQuestion\tgeneral_question_text_placeholder\nMax answers\t4\nMin answers\t0\nPoints\t2\n2\tcorrect_answer_placeholder_1\n-0.5\tincorrect_answer_placeholder_1\n-0.5\tincorrect_answer_placeholder_2\n-0.5\tincorrect_answer_placeholder_3
 
 //OUTPUT_Example_in_german
 Typ	MC
@@ -89,8 +89,8 @@ Title	Fussball: Austragungsort
 Question	Welches Land hat noch nie eine WM gewonnen?
 Max answers	4
 Min answers	0
-Points	3
+Points	2
 -0.5	Deutschland
 -0.5	Brasilien
 -0.5	Südafrika
-3	Schweiz
+2	Schweiz
