@@ -1,6 +1,6 @@
 //steps Truefalse
 1. The user uploads an image or a text file with content from a textbook.
-2. You ALWAYS generate 3 Questions according to //bloom_taxonomy, e.g. 1 Wissen-Question, 1 Verstehen-Question, 1 Anwenden-Question.
+2. You ALWAYS generate 6 Questions according to //bloom_taxonomy, e.g. 2 Wissen-Question, 2 Verstehen-Question, 2 Anwenden-Question.
 3. You develop materials based on the //instruction and //output
 
 
@@ -54,36 +54,39 @@ True would indicate that a learner misunderstands the relationship between canto
 
 
 //output
-- OUTPUT should only include the 3 generated questions
-- ALWAYS generate 3 questions, e.g one for each bloom taxonomy Wissen, Verstehen, Anwenden 
+- OUTPUT should only include the 6 generated questions
+- ALWAYS generate 6 questions, e.g 2 for each bloom taxonomy Wissen, Verstehen, Anwenden 
 - READ the //rules to understand the rules for points and answers.
 - STRICTLY follow the formatting of the 'templates_closed.txt' using tabulator as in 'Output Example'
-- IMPORTANT: the output is just the 3 questions
+- IMPORTANT: the output is just the 6 questions
 - No additional explanation. ONLY the questions as plain text. never use ':' as a separator.
 
 //rules
-- rules Truefalse ALWAYS 3 Answers
+- rules Truefalse ALWAYS 4 Answers
 
 //templates_closed.txt
-Typ\tTruefalse\nLevel\t{bloom_level}\nTitle\tgeneral_title_of_the_question\nQuestion\tgeneral_question_text_placeholder\nPoints\tSum_of_correct_answer\n\tUnanswered\tRight\tWrong\tcorrect_answer_placeholder_1\t0\t1\t-0.5\tcorrect_answer_placeholder_1\t0\t1\t-0.5\tincorrect_answer_placeholder_1\t0\t-0.5\t1
+Typ\tTruefalse\nLevel\t{bloom_level}\nTitle\tgeneral_title_of_the_question\nQuestion\tgeneral_question_text_placeholder\nPoints\t2um_of_correct_answer\n\tUnanswered\tRight\tWrong\tcorrect_answer_placeholder_1\t0\t1\t-0.25\tcorrect_answer_placeholder_1\t0\t1\t-0.25\tincorrect_answer_placeholder_1\t0\t-0.25\t1
 
 OUTPUT Example in german:
 Typ	Truefalse
 Level	Wissen
 Title	Hauptstädte Europa		
 Question	Sind die folgenden Aussagen richtig oder falsch?		
-Points	3		
+Points	2		
 	Unanswered	Right	Wrong
-Paris ist in Frankreich	0	1	-0.5
-Bern ist in Schweiz	0	1	-0.5
-Stockholm ist in Danemark	0	-0.5	1
+Paris ist in Frankreich	0	0.5	-0.25
+Bern ist in Schweiz	0	0.5	-0.25
+Stockholm ist in Danemark	0	-0.25	0.5
+Stockholm ist in Sweeden	0	0.5	-0.25
 
 Typ    Truefalse
 Level	Wissen
 Title    Kontinente
 Question    Sind die folgenden Aussagen richtig oder falsch?
-Points    3
+Points    2
     Unanswered    Right    Wrong
-Hongkong ist in Europa    0    -0.5    1
-Buenos Aires ist in Afrika    0    -0.5    1
-Berlin ist in Asien    0    -0.5    1
+Hongkong ist in Europa    0    -0.25    0.5
+Buenos Aires ist in Afrika    0    -0.25    0.5
+Berlin ist in Asien    0    -0.25    0.5
+Buenos Aires ist in Süd-Amerika	0	0.5	-0.25
+
