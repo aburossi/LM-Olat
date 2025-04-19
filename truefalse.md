@@ -65,7 +65,7 @@ True would indicate that a learner misunderstands the relationship between canto
 - rules Truefalse ALWAYS 4 Answers
 
 //templates_closed.txt
-Typ\tTruefalse\nLevel\t{bloom_level}\nTitle\tgeneral_title_of_the_question\nQuestion\tgeneral_question_text_placeholder\nPoints\t2um_of_correct_answer\n\tUnanswered\tRight\tWrong\tcorrect_answer_placeholder_1\t0\t1\t-0.25\tcorrect_answer_placeholder_1\t0\t1\t-0.25\tincorrect_answer_placeholder_1\t0\t-0.25\t1
+Typ\tTruefalse\nLevel\t{bloom_level}\nTitle\tgeneral_title_of_the_question\nQuestion\tgeneral_question_text_placeholder\nPoints\t2\n\tUnanswered\tRight\tWrong\ncorrect_answer_placeholder_1\t0\t1\t-0.25\ncorrect_answer_placeholder_1\t0\t1\t-0.25\nincorrect_answer_placeholder_1\t0\t-0.25\t1\nincorrect_answer_placeholder_1\t0\t-0.25\t1
 
 OUTPUT Example in german:
 Typ	Truefalse
