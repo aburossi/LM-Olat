@@ -1,16 +1,1 @@
-# ----------------------------------
-# Ignore the 'secrets/' folder entirely
-# ----------------------------------
-secrets/
-
-# (Optional: if you only want to ignore 'secrets.toml' but still track other files in 'secrets/')
-# secrets/secrets.toml
-
-# ----------------------------------
-# (Other common ignores for Python projects, if needed)
-# ----------------------------------
-__pycache__/
-*.py[cod]
-*.egg-info/
-*.env
-.env
+secrets/secrets.toml
