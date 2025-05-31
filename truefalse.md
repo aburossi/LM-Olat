@@ -90,3 +90,35 @@ Lernende dürfen während der Arbeitszeit ohne Absprache mit dem Betrieb die Sch
 Wenn ein Lernender krank ist, muss er dem Betrieb sofort Bescheid geben und ein Arztzeugnis vorlegen, falls verlangt	0	1	-0.5
 Der Betrieb kann den Lehrvertrag während der Probezeit ohne Angabe von Gründen kündigen	0	1	-0.5
 
+Typ	Truefalse
+Level	Wissen
+Title	Lehrvertrag Schweiz – Grundwissen
+Question	Sind die folgenden Aussagen richtig oder falsch?
+Points	2
+	Unanswered	Right	Wrong
+Ein Lehrvertrag in der Schweiz muss schriftlich abgeschlossen werden	0	1	-0.25
+Der Lehrvertrag ist in der Schweiz nur für volljährige Lernende verpflichtend	0	-0.25	1
+Die Probezeit ist im Lehrvertrag gesetzlich geregelt	0	1	-0.25
+Lernende sind verpflichtet, die ihnen übertragenen Arbeiten sorgfältig auszuführen	0	1	-0.25
+
+Typ	Truefalse
+Level	Verstehen
+Title	Rechte und Pflichten im Lehrvertrag
+Question	Beurteilen Sie die folgenden Aussagen zu den Rechten und Pflichten der Vertragsparteien.
+Points	2
+	Unanswered	Right	Wrong
+Der Lehrbetrieb muss dem Lernenden eine abgeschlossene Berufsausbildung ermöglichen	0	1	-0.25
+Lernende dürfen während der Arbeitszeit ohne Absprache mit dem Betrieb die Schule schwänzen	0	-0.25	1
+Wenn ein Lernender krank ist, muss er dem Betrieb sofort Bescheid geben und ein Arztzeugnis vorlegen, falls verlangt	0	1	-0.25
+Der Betrieb kann den Lehrvertrag während der Probezeit ohne Angabe von Gründen kündigen	0	1	-0.25
+
+Typ	Truefalse
+Level	Anwenden
+Title	Lehrvertrag – Anwendung im Alltag
+Question	Beurteilen Sie die folgenden Situationen im Zusammenhang mit dem Lehrvertrag.
+Points	2
+	Unanswered	Right	Wrong
+Ein Lernender darf eigenständig die Arbeitszeiten ohne Absprache mit dem Betrieb ändern	0	-0.25	1
+Wenn ein Lernender seine Aufgaben nicht sorgfältig erledigt, kann dies zu einer Abmahnung führen	0	1	-0.25
+Der Lehrbetrieb muss dem Lernenden die Teilnahme an der Berufsschule ermöglichen	0	1	-0.25
+Ein Betrieb kann einem Lernenden während der Probezeit ohne Begründung kündigen	0	1	-0.25
