@@ -100,12 +100,36 @@ Typ\tSC\nLevel\t{bloom_level}\nFeedback correct answer\t{feedback_correct_answer
 //OUTPUT_Example_in_german:
 Typ	SC
 Level	Wissen
-Feedback correct answer  Richtig! Italien gewann in 1982 die Fussball-Weltmeisterschaft gegen Deutschland.  
-Feedback wrong answer  Falsch. Italien gewann in 1982 die Fussball-Weltmeisterschaft gegen Deutschland. 
-Title	Fussball: Gewinner
-Question	Welche Mannschaft gewann 1982 die Fussball Weltmeisterschaft?
+Feedback correct answer  Richtig! Fixe Kosten sind Ausgaben, die regelmässig und in gleichbleibender Höhe anfallen, wie Miete oder Krankenkasse.  
+Feedback wrong answer  Falsch. Fixe Kosten sind Ausgaben, die regelmässig und in gleichbleibender Höhe anfallen, wie Miete oder Krankenkasse.
+Title	Budget: Fixe Kosten
+Question	Was zählt zu den fixen Kosten in einem Budget?
 Points	1
-1	Italien
--0.5	Brasilien
--0.5	Südafrika
--0.5	Spanien
+1	Mietzins
+-0.5	Taschengeld für Freizeitaktivitäten
+-0.5	Unregelmässige Ausgaben für Hobbys
+-0.5	Kleiderkäufe nach Bedarf
+
+Typ	SC
+Level	Wissen
+Feedback correct answer  Richtig! Ein Budget hilft, einen Überblick über Einnahmen und Ausgaben zu bekommen.  
+Feedback wrong answer  Falsch. Ein Budget hilft, einen Überblick über Einnahmen und Ausgaben zu bekommen.
+Title	Budget: Zweck
+Question	Wozu dient ein Budget im Umgang mit Geld?
+Points	1
+1	Um einen Überblick über Einnahmen und Ausgaben zu erhalten
+-0.5	Um die Ausgaben für eine bessere finanzielle Überblick zu erhöhen
+-0.5	Um die Einnahmen nach den Ausgaben zu richten
+-0.5	Um spontane Einkäufe zu ermöglichen, ohne die Einnahmen zu reduzieren
+
+Typ	SC
+Level	Wissen
+Feedback correct answer  Richtig! Ehrlichkeit und Disziplin sind wichtige Voraussetzungen für die Budgeterstellung.  
+Feedback wrong answer  Falsch. Ehrlichkeit und Disziplin sind wichtige Voraussetzungen für die Budgeterstellung.
+Title	Budget: Voraussetzungen
+Question	Welche Eigenschaft ist eine Grundvoraussetzung für die Erstellung eines Budgets?
+Points	1
+1	Ehrlichkeit
+-0.5	Spontaneität bei Ausgaben
+-0.5	Unregelmässige Kontrolle der Finanzen
+-0.5	Verzicht auf eigene Zahlen
